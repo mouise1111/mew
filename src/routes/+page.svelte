@@ -246,7 +246,6 @@
 	</div>
 </section>
 
-<!--
 <section class="relative pt-20 pb-40 bg-orange-50">
 	<h1 class="mb-16 text-5xl text-center slackey text-blue-950">Our Groomers</h1>
 	<img src="/rings.png" class="absolute scale-75 right-20 top-16" alt="" />
@@ -403,7 +402,7 @@
 			<p>Portland, TX 38784</p>
 		</div>
 	</div>
-</footer> -->
+</footer>
 
 <style>
 	#doghero {
