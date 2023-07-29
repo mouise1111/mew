@@ -25,6 +25,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@fontsource/slackey": "^5.0.5"
+		"@fontsource/slackey": "^5.0.5",
+		"gsap": "^3.12.2"
 	}
 }
