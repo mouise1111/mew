@@ -366,6 +366,7 @@
 			}
 		);
 		// #endregion
+		//#endregion
 
 		//#region groomers
 		gsap.fromTo(
@@ -380,55 +381,19 @@
 				}
 			}
 		);
+		gsap.fromTo(
+			'#groomers',
+			{ opacity: 0 },
+			{
+				opacity: 1,
+				duration: 1,
+				scrollTrigger: {
+					trigger: '#groomers',
+					start: 'top center'
+				}
+			}
+		);
 
-		gsap.fromTo(
-			'#groomers-one',
-			{ opacity: 0 },
-			{
-				opacity: 1,
-				duration: 1,
-				scrollTrigger: {
-					trigger: '#groomers-one',
-					start: 'top center'
-				}
-			}
-		);
-		gsap.fromTo(
-			'#groomers-two',
-			{ opacity: 0 },
-			{
-				opacity: 1,
-				duration: 1,
-				scrollTrigger: {
-					trigger: '#groomers-two',
-					start: 'top center'
-				}
-			}
-		);
-		gsap.fromTo(
-			'#groomers-three',
-			{ opacity: 0 },
-			{
-				opacity: 1,
-				duration: 1,
-				scrollTrigger: {
-					trigger: '#groomers-three',
-					start: 'top center'
-				}
-			}
-		);
-		gsap.fromTo(
-			'#groomers-four',
-			{ opacity: 0 },
-			{
-				opacity: 1,
-				duration: 1,
-				scrollTrigger: {
-					trigger: '#groomers-four',
-					start: 'top center'
-				}
-			}
-		);
 		//#endregion
 
 		//#region blog
@@ -736,14 +701,16 @@
 		</h1>
 		<img src="/rings.png" class="absolute hidden scale-75 lg:block right-20 top-16" alt="" />
 		<img src="/blitz.png" class="absolute hidden lg:block top-16 left-20" alt="" />
-		<div class="flex flex-col justify-center text-center lg:mt-56 lg:gap-8 lg:flex-row">
+		<div
+			id="groomers"
+			class="flex flex-col justify-center text-center lg:mt-56 lg:gap-8 lg:flex-row"
+		>
 			<div
-				id="groomers-one"
 				class="relative transition-all bg-orange-100 rounded-2xl hover:scale-105 hover:bg-orange-200 border-gradi"
 			>
 				<img
 					src="/team/maz.png"
-					class="block mx-auto mt-2 border-8 border-white rounded-full lg:mt-0 lg:absolute lg:-top-28 lg:center-image"
+					class="center-image block mx-auto mt-2 border-8 border-white rounded-full lg:mt-0 lg:absolute lg:-top-28 lg:center-image"
 					alt=""
 				/>
 				<div class="flex flex-col gap-4 mx-4 my-2 mb-8 lg:mt-48 lg:px-16 justif-center">
@@ -752,12 +719,11 @@
 				</div>
 			</div>
 			<div
-				id="groomers-two"
 				class="relative transition-all bg-orange-100 rounded-2xl hover:scale-105 hover:bg-orange-200"
 			>
 				<img
 					src="/team/adam.png"
-					class="mx-auto mt-2 border-8 border-white rounded-full lg:mt-0 lg:absolute lg:-top-28 lg:center-image"
+					class="center-image mx-auto mt-2 border-8 border-white rounded-full lg:mt-0 lg:absolute lg:-top-28 lg:center-image"
 					alt=""
 				/>
 				<div class="flex flex-col gap-4 mx-4 mt-4 mb-8 lg:mt-48 lg:px-16 justif-center">
@@ -766,12 +732,11 @@
 				</div>
 			</div>
 			<div
-				id="groomers-three"
 				class="relative transition-all bg-orange-100 rounded-2xl hover:scale-105 hover:bg-orange-200"
 			>
 				<img
 					src="/team/ana.png"
-					class="mx-auto mt-2 border-8 border-white rounded-full lg:mt-0 lg:absolute lg:-top-28 lg:center-image"
+					class="center-image mx-auto mt-2 border-8 border-white rounded-full lg:mt-0 lg:absolute lg:-top-28 lg:center-image"
 					alt=""
 				/>
 				<div class="flex flex-col gap-4 mx-4 mt-4 mb-8 lg:mt-48 lg:px-16 justif-center">
@@ -780,12 +745,11 @@
 				</div>
 			</div>
 			<div
-				id="groomers-four"
 				class="relative transition-all bg-orange-100 rounded-2xl hover:scale-105 hover:bg-orange-200"
 			>
 				<img
 					src="/team/morgan.png"
-					class="mx-auto mt-2 border-8 border-white rounded-full lg:mt-0 lg:absolute lg:-top-28 lg:center-image"
+					class="center-image mx-auto mt-2 border-8 border-white rounded-full lg:mt-0 lg:absolute lg:-top-28 lg:center-image"
 					alt=""
 				/>
 				<div class="flex flex-col gap-4 mx-4 mt-4 mb-8 lg:mt-48 lg:px-16 justif-center">
