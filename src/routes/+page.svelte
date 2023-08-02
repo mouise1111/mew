@@ -710,7 +710,7 @@
 			>
 				<img
 					src="/team/maz.png"
-					class="center-image block mx-auto mt-2 border-8 border-white rounded-full lg:mt-0 lg:absolute lg:-top-28 lg:center-image"
+					class="block mx-auto mt-2 border-8 border-white rounded-full lg:absolute lg:left-1/2 lg:transform lg:-translate-x-1/2 lg:mt-0"
 					alt=""
 				/>
 				<div class="flex flex-col gap-4 mx-4 my-2 mb-8 lg:mt-48 lg:px-16 justif-center">
@@ -723,7 +723,7 @@
 			>
 				<img
 					src="/team/adam.png"
-					class="center-image mx-auto mt-2 border-8 border-white rounded-full lg:mt-0 lg:absolute lg:-top-28 lg:center-image"
+					class="block mx-auto mt-2 border-8 border-white rounded-full lg:absolute lg:left-1/2 lg:transform lg:-translate-x-1/2 lg:mt-0"
 					alt=""
 				/>
 				<div class="flex flex-col gap-4 mx-4 mt-4 mb-8 lg:mt-48 lg:px-16 justif-center">
@@ -736,7 +736,7 @@
 			>
 				<img
 					src="/team/ana.png"
-					class="center-image mx-auto mt-2 border-8 border-white rounded-full lg:mt-0 lg:absolute lg:-top-28 lg:center-image"
+					class="block mx-auto mt-2 border-8 border-white rounded-full lg:absolute lg:left-1/2 lg:transform lg:-translate-x-1/2 lg:mt-0"
 					alt=""
 				/>
 				<div class="flex flex-col gap-4 mx-4 mt-4 mb-8 lg:mt-48 lg:px-16 justif-center">
@@ -749,7 +749,7 @@
 			>
 				<img
 					src="/team/morgan.png"
-					class="center-image mx-auto mt-2 border-8 border-white rounded-full lg:mt-0 lg:absolute lg:-top-28 lg:center-image"
+					class="block mx-auto mt-2 border-8 border-white rounded-full lg:absolute lg:left-1/2 lg:transform lg:-translate-x-1/2 lg:mt-0"
 					alt=""
 				/>
 				<div class="flex flex-col gap-4 mx-4 mt-4 mb-8 lg:mt-48 lg:px-16 justif-center">
